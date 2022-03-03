@@ -127,8 +127,8 @@ async def generate_cover(thumbnail, title, userid, ctitle):
 
 
     
-@Client.on_message(command(["play", f"play@{BOT_USERNAME}", "شغل", "ديشا", "تشغيل", "فوزي", "مها", "اللواء", "مانو"]) & other_filters)
-async def play(c: Client, m: Message):
+@Client.on_message(command(["play", f"play@{BOT_USERNAME},"شغل","حمدي", "تشغيل", "عمار"]) & other_filters)
+async def play(c: Client, m: Message)
     replied = m.reply_to_message
     chat_id = m.chat.id
     keyboard = InlineKeyboardMarkup(
@@ -138,8 +138,8 @@ async def play(c: Client, m: Message):
                       InlineKeyboardButton("⏭️", "skip"),
                       InlineKeyboardButton("▶️", callback_data="cbresume"),
                   ],[
-                      InlineKeyboardButton("• ديـشـأ أللـمـفـيـأأ", url=f"https://t.me/DeshaXBlacck"),
-                      InlineKeyboardButton("• قـنـأة ألـسـوُرس", url=f"https://t.me/music_Desha1"),
+                      InlineKeyboardButton("• َ𝙖𝙢𝙖𝙧", url=f"https://t.me/X_A_R2"),
+                      InlineKeyboardButton("• قـنـأة ألـسـوُرس", url=f"https://t.me/G_8O_X"),
                   ],[
                       InlineKeyboardButton("🗑", callback_data="cls")],
                   ]
@@ -253,7 +253,7 @@ async def play(c: Client, m: Message):
                       reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("💭 قـنـاة الـسـورس", url=f"https://t.me/music_Desha1")
+                            InlineKeyboardButton("💭 قـنـاة الـسـورس", url=f"https://t.me/G_8O_X.")
                         ],
                         [
                             InlineKeyboardButton("🗑 حذف", callback_data="cls")
