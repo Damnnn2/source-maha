@@ -42,7 +42,7 @@ async def start(_, message: Message):
 💞  تم برمجة البوت بواسطة 
 
 ⋆  [𝙖𝙢𝙖𝙧](t.me/X_A_R2)
-⋆  
+⋆  [Hamdi](t.me/hhhamdi)
  
         """,
         reply_markup=InlineKeyboardMarkup(
