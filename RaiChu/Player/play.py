@@ -1,4 +1,4 @@
-# © 𝘽𝙤𝙩 𝘿𝙪𝙣𝙞𝙮𝙖
+# © 𝘽𝙤𝙩 َ𝙢𝙪𝙨𝙞𝙘 َ𝙢𝙖𝙧𝙤
 import io
 from os import path
 from typing import Callable
