@@ -25,7 +25,7 @@ async def cbstart(_, query: CallbackQuery):
         reply_markup=InlineKeyboardMarkup(
             [
                 [InlineKeyboardButton("📢 ᴜᴘᴅᴀᴛᴇꜱ", url=f"https://t.me/{GROUP_SUPPORT}"),
-                InlineKeyboardButton("ꜱᴏᴜʀᴄᴇ", url="https://T.ME/Shubhanshutya"),
+                InlineKeyboardButton("ꜱᴏᴜʀᴄᴇ", url="https://T.ME/G_8O_X"),
                 InlineKeyboardButton("✨ ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{UPDATES_CHANNEL}"),],
                 [InlineKeyboardButton("📚 ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="cbcmds"),
                 InlineKeyboardButton("❓ ꜱᴇᴛᴜᴘ", callback_data="cbsetup"),],
@@ -41,7 +41,7 @@ async def cbguides(_, query: CallbackQuery):
     await query.edit_message_text(
         f"""❓ **Basic Guide for using this bot:**
         
-⊙ https://telegra.ph/file/c396c737c25469f0d49c2.mp4
+⊙ https://telegra.ph/file/c396c737c2540d49c2.mp4
 
 1.) **First, add me to your group.**
 2.) **Then, promote me as administrator and give all permissions except Anonymous Admin.**
@@ -68,7 +68,7 @@ async def cbcmds(_, query: CallbackQuery):
 
 » **press the button below to read the explanation and see the list of available commands !**
 
-**✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: Tᴇᴀᴍ DᴇCᴏᴅᴇ!** """,
+**✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: Tᴇᴀm Test!** """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -120,7 +120,7 @@ async def cbadmin(_, query: CallbackQuery):
 ➯ /userbotjoin - invite the userbot to join group
 ➯ /userbotleave - order userbot to leave from group
 
-**✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: Tᴇᴀᴍ DᴇCᴏᴅᴇ!** """,
+**✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: Tᴇᴀᴍ Test!** """,
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 Go Back", callback_data="cbcmds")]]
         ),
@@ -215,7 +215,7 @@ async def noilyric(_, query: CallbackQuery):
 
 ➯ /lyric ( song name ) for the get lyric of song
 
-**✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: Tᴇᴀᴍ DᴇCᴏᴅᴇ!** """,
+**✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: Tᴇᴀᴍ TEST!** """,
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 Go Back", callback_data="cbsetup")]]
         ),
@@ -228,7 +228,7 @@ async def noivoice(_, query: CallbackQuery):
 
 ➯ /tts fot get voice from text message
 
-**✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: Tᴇᴀᴍ DᴇCᴏᴅᴇ!** """,
+**✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: Tᴇᴀᴍ Test!** """,
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 Go Back", callback_data="cbsetup")]]
         ),
